@@ -1,0 +1,181 @@
+
+
+\documentclass{beamer}
+
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+
+% Bonjour Monsieur,
+% Notre projet s’intitule : L’impact des réseaux sociaux sur la réussite académique.
+% Nous avons choisi ce sujet parce que les réseaux sociaux occupent une place très importante dans la vie des étudiants aujourd’hui.
+% Nous avons voulu savoir s’ils ont un effet positif ou négatif sur les résultats scolaires.
+
+\title[L'impact des réseaux sociaux]{L'impact des réseaux sociaux sur la réussite académique}
+\author[T.m.taleb\& M. A. Waled]{Taleb mohamed taleb \\ Mohamed Ahmed Waled}
+\institute{Institut Supérieur du Numérique \\ Semestre 2 -- Méthodologie}
+\date{\ 26 fevrier 2026}
+
+\begin{document}
+
+%------------------------------------------------
+% Page de titre
+%------------------------------------------------
+\begin{frame}
+\titlepage
+\end{frame}
+
+%------------------------------------------------
+% Plan
+%-Nous avons divisé notre projet en huit parties principales.
+
+\begin{frame}{Sommaire}
+\tableofcontents
+\end{frame}
+
+%-----------Les réseaux sociaux sont devenus indispensables dans la vie des étudiants.
+%Ils permettent de communiquer rapidement, de partager des informations et d’accéder à des ressources éducatives.
+%Cependant, leur influence sur la réussite académique reste discutée.
+
+
+\section{Contexte général}
+
+\begin{frame}{Contexte général}
+Les réseaux sociaux occupent une place centrale dans la vie des étudiants.
+
+\begin{itemize}
+    \item Communication rapide
+    \item Partage d'informations
+    \item Accès aux ressources éducatives
+\end{itemize}
+\end{frame}
+
+%--------Notre question principale est :
+%Les réseaux sociaux ont-ils un impact positif ou négatif sur la réussite académique ?
+
+\section{Question de recherche}
+
+\begin{frame}{Question de recherche}
+\centering
+\Large
+Les réseaux sociaux influencent-ils positivement ou négativement la réussite académique ?
+\end{frame}
+
+%-----------Nous avons réalisé une étude quantitative exploratoire.
+% Nous avons analysé trois étudiants en observant :
+
+\section{Méthode d'étude}
+
+\begin{frame}{Méthode d'étude}
+\begin{itemize}
+    \item Étude quantitative exploratoire
+    \item Échantillon : 3 étudiants
+    \item Variables analysées :
+    \begin{itemize}
+        \item Temps quotidien passé sur les réseaux sociaux
+        \item Réseau dominant
+        \item Type d'utilisation
+        \item Moyenne académique (/20)
+        \item Heures de sommeil
+    \end{itemize}
+    \item Analyse descriptive comparative
+\end{itemize}
+\end{frame}
+
+%----Les résultats montrent que l’étudiant qui passe le plus de temps sur les réseaux sociaux pour le divertissement a la moyenne la plus faible.
+%En revanche, les étudiants qui utilisent les réseaux à des fins éducatives obtiennent de meilleures moyennes.
+
+\section{Résultats et analyse}
+
+\begin{frame}{Résultats et analyse}
+\tiny
+\begin{table}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\textbf{Nom} & \textbf{Niveau} & \textbf{Réseau} & \textbf{Heures/jour} & \textbf{Moyenne} & \textbf{Nuisance (1-5)} & \textbf{Sommeil} \\
+\hline
+Taleb              & L1 & Youtube  & +4h          & +16/20       & 3 & 5h--6h \\
+Rokia Bettar       & L3 & Tiktok   & +4h          & 12--14/20    & 3 & --5h \\
+Roukaye            & L1 & Snapchat & 3h--4h       & 10--12/20    & 3 & --5h \\
+N                  & L1 & Tiktok   & 2h--3h       & 12--14/20    & 5 & --5h \\
+M. Ahmed Waled     & L1 & Tiktok   & +4h          & 12--14/20    & 5 & --5h \\
+Mamadou Sy         & L2 & Tiktok   & 1h--2h       & 10--12/20    & 3 & --5h \\
+M. Abdo Akbad      & L1 & Youtube  & +4h          & 12--14/20    & 3 & 5h--6h \\
+25130              & L1 & Tiktok   & +4h          & 12--14/20    & 3 & 5h--6h \\
+Lashar Medlemin    & L2 & Youtube  & 2h--3h       & 12--14/20    & 3 & --5h \\
+Mohamed            & M1 & Instagram& +4h          & 10--12/20    & 3 & 7h--8h \\
+Lashar             & L1 & Snapchat & 2h--3h       & 12--14/20    & 4 & 6h--7h \\
+Moustapha          & L3 & Facebook & 3h--4h       & +16/20       & 5 & +8h \\
+Khaled             & M2 & LinkedIn & 2h--3h       & +16/20       & 4 & +8h \\
+Toto               & L3 & Snapchat & 2h--3h       & 12--14/20    & 3 & 7h--8h \\
+M. Sidi Mohamed    & L1 & Autres   & 2h--3h       & 10--12/20    & 3 & 6h--7h \\
+\hline
+\end{tabular}
+}
+\end{table}
+\end{frame}
+%------------------------------------------------
+
+
+\section{Illustration graphique de l'utilisation}
+\begin{frame}{Illustration graphique de l'utilisation}
+\centering
+\begin{columns}[c]
+    \column{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{WhatsApp Image 2026-03-15 at 00.33.57.jpeg}
+
+    \column{0.48\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{WhatsApp Image 2026-03-15 at 00.34.05.jpeg}
+\end{columns}
+\end{frame}
+
+%-------Il existe une tendance négative entre le temps excessif et la performance académique.
+% L’usage éducatif semble bénéfique.
+% Toutefois, l’échantillon est limité.
+
+
+
+\section{Interprétation des résultats}
+
+\begin{frame}{Interprétation des résultats}
+\begin{itemize}
+    \item \textbf{Tendance principale :} La majorité des étudiants passent plus de 4h par jour sur les réseaux sociaux, ce qui représente un usage intensif.
+    \item \textbf{Réseau majoritaire :} TikTok est le réseau le plus utilisé, suivi de YouTube et Snapchat.
+    \item \textbf{Impact sur la concentration :} La moyenne de l'échelle de nuisance est d'environ 3,5/5, indiquant un impact modéré à fort sur la concentration.
+    \item \textbf{Lien académique :} La plupart des répondants avec un usage intensif ont une moyenne entre 12 et 14/20.
+    \item \textbf{Conclusion :} L'impact des réseaux sociaux dépend du temps consacré et du type d'utilisation.
+\end{itemize}
+\end{frame}
+
+%-----------En conclusion, l’impact des réseaux sociaux dépend du temps consacré et du type d’utilisation.
+% Une utilisation modérée et académique peut être positive.
+\section{Photo explicative}
+\begin{frame}{Photo Explicative}
+\centering
+\includegraphics[width=0.8\textwidth]{WhatsApp Image 2026-03-02 at 10.49.21.jpeg}
+\end{frame}
+
+\section{Conclusion générale}
+
+\begin{frame}{Conclusion générale}
+\centering
+\Large
+L’impact des réseaux sociaux dépend principalement du type d’utilisation et du temps consacré.
+\end{frame}
+
+%------------------------------------------------
+\section{Références bibliographiques}
+
+\begin{frame}{Références bibliographiques}
+\begin{thebibliography}{9}
+\bibitem{} Boyd, D. (2010). Social Network Sites.
+\bibitem{} UNESCO (2022). Rapport sur l’éducation numérique.
+\end{thebibliography}
+\end{frame}
+
+\end{document}
